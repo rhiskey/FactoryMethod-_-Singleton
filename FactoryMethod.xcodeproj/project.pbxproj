@@ -16,6 +16,11 @@
 		5BF11C4A27A9F9960052019C /* FactoryMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11C4927A9F9960052019C /* FactoryMethodTests.swift */; };
 		5BF11C5427A9F9960052019C /* FactoryMethodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11C5327A9F9960052019C /* FactoryMethodUITests.swift */; };
 		5BF11C5627A9F9960052019C /* FactoryMethodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11C5527A9F9960052019C /* FactoryMethodUITestsLaunchTests.swift */; };
+		5BF11C6327A9F9AF0052019C /* Excercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11C6227A9F9AF0052019C /* Excercise.swift */; };
+		5BF11C6527A9F9DD0052019C /* Jumping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11C6427A9F9DD0052019C /* Jumping.swift */; };
+		5BF11C6727A9FA1C0052019C /* Squats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11C6627A9FA1C0052019C /* Squats.swift */; };
+		5BF11C6A27A9FA5F0052019C /* FactoryExcercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11C6927A9FA5F0052019C /* FactoryExcercise.swift */; };
+		5BF11C6D27A9FBFF0052019C /* SwingPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF11C6C27A9FBFF0052019C /* SwingPress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		5BF11C4F27A9F9960052019C /* FactoryMethodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryMethodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF11C5327A9F9960052019C /* FactoryMethodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodUITests.swift; sourceTree = "<group>"; };
 		5BF11C5527A9F9960052019C /* FactoryMethodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BF11C6227A9F9AF0052019C /* Excercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercise.swift; sourceTree = "<group>"; };
+		5BF11C6427A9F9DD0052019C /* Jumping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jumping.swift; sourceTree = "<group>"; };
+		5BF11C6627A9FA1C0052019C /* Squats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squats.swift; sourceTree = "<group>"; };
+		5BF11C6927A9FA5F0052019C /* FactoryExcercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryExcercise.swift; sourceTree = "<group>"; };
+		5BF11C6C27A9FBFF0052019C /* SwingPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingPress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,8 @@
 				5BF11C3B27A9F9960052019C /* Assets.xcassets */,
 				5BF11C3D27A9F9960052019C /* LaunchScreen.storyboard */,
 				5BF11C4027A9F9960052019C /* Info.plist */,
+				5BF11C6827A9FA220052019C /* Excercise */,
+				5BF11C6B27A9FB2A0052019C /* Factory */,
 			);
 			path = FactoryMethod;
 			sourceTree = "<group>";
@@ -125,6 +137,25 @@
 				5BF11C5527A9F9960052019C /* FactoryMethodUITestsLaunchTests.swift */,
 			);
 			path = FactoryMethodUITests;
+			sourceTree = "<group>";
+		};
+		5BF11C6827A9FA220052019C /* Excercise */ = {
+			isa = PBXGroup;
+			children = (
+				5BF11C6227A9F9AF0052019C /* Excercise.swift */,
+				5BF11C6427A9F9DD0052019C /* Jumping.swift */,
+				5BF11C6627A9FA1C0052019C /* Squats.swift */,
+				5BF11C6C27A9FBFF0052019C /* SwingPress.swift */,
+			);
+			path = Excercise;
+			sourceTree = "<group>";
+		};
+		5BF11C6B27A9FB2A0052019C /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				5BF11C6927A9FA5F0052019C /* FactoryExcercise.swift */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF11C6D27A9FBFF0052019C /* SwingPress.swift in Sources */,
+				5BF11C6A27A9FA5F0052019C /* FactoryExcercise.swift in Sources */,
 				5BF11C3727A9F9950052019C /* ViewController.swift in Sources */,
+				5BF11C6327A9F9AF0052019C /* Excercise.swift in Sources */,
+				5BF11C6727A9FA1C0052019C /* Squats.swift in Sources */,
 				5BF11C3327A9F9950052019C /* AppDelegate.swift in Sources */,
+				5BF11C6527A9F9DD0052019C /* Jumping.swift in Sources */,
 				5BF11C3527A9F9950052019C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
